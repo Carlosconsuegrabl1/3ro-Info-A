@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #060b14;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px 20px;
+}
+
+h1 {
+    color: #f39c12;
+    font-size: 38px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(243, 156, 18, 0.4);
+}
+
+h2 {
+    color: #00d2ff;
+    font-size: 23px;
+    margin-top: 0;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.caja {
+    width: 280px;
+    min-height: 220px;
+    background-color: #0f1a2e;
+    border: 2px solid #f39c12;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(243, 156, 18, 0.2);
+}
+
+.caja p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 10px 0 0 0;
+    color: #d1dbe8;
+}
+
+.img-caja {
+    width: 44px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.seccion-resumen {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.seccion-resumen h2 {
+    color: #f39c12;
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.seccion-resumen p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #e1e7f0;
+}
+
+.img-final {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
